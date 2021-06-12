@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Тест окончен</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+	<div class="container">
+		<div id="end" class="flex-center flex-column">
+			<h1 id="finalScore"></h1>
+			<form class="end-form-container">
+				<h2 id="end-text">Ознакомьтесь с вашей оценкой. Напишите имя, чтобы сохранить  </h2>
+				<input type="text" name="name" id="username" placeholder = "Напишите имя">
+				<button class="btn" id="saveScoreBtn" type="submit" onclick="saveHighScore(event)" 
+				disabled> Сохранить </button>
+			</form>
+			<a href="game.html" class="btn"> Пройти еще раз</a>
+			<a href="indexx.html" class="btn"> Перейти домой </a>
+			
+		</div>
+	</div>
+	 <script src="end.js"></script>
+</body>
+</html>
